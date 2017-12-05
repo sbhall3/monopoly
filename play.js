@@ -1,3 +1,11 @@
+function rollDice() {
+     rollDie() + rollDie();
+}
+
+function rollDie() {
+    Math.floor(Math.random() * 7) + 1;
+}
+
 function updateBalance(player, amount) {
     player.balance += amount;
 }
